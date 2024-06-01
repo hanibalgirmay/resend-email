@@ -1,0 +1,23 @@
+{
+  "name": "resend-email",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "author": "Hanibal Girmay",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "resend": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.13.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
